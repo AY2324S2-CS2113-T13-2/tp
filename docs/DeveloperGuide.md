@@ -10,7 +10,7 @@ The saving timetable mechanism is facilitated by the Storage class. It implement
 * `Storage#writeTaskInFile(User user)`: when a new task of a specific user is added, it will be written into the correct file.
 
 The following sequence diagram shows how the operations in the Storage class goes through when the app is opened and it loads data from history:
-![Storage UML](StorageUML.png)
+![Storage UML](diagram%2FStorageUML.png)
 
 
 ## Parser Component
