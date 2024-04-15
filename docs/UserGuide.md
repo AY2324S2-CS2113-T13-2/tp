@@ -319,6 +319,8 @@ Format: `addfor /user USER1, USER2, ... /on DAYS /task DESCRIPTION /from START_T
 
 Example: `addfor /user simon, helen, tim /on monday /task project meeting /from 9:00 /to 11:00 /type f`
 
+* Note: The usernames have to be separated by ",".
+
 Expected Output: 
 ```
 Timetable has been written to data/Simon.txt
@@ -347,6 +349,10 @@ Expected Output: `Bye.`
 **A**: The timetables are stored in the folder named "data" in the same directory. 
 The name of the file indicates the owner of the timetable.
 
+**Q**: Can I delete a user from the userlist?
+
+**A**: No.
+
 ## Command Summary <a name="commandsummary"></a>
 
 - Add User `adduser NAME`
@@ -363,6 +369,7 @@ The name of the file indicates the owner of the timetable.
 - Changing a Task's Type `changetasktype /on DAY /index TASK_INDEX /type F_OR_C`
 - List Today's Tasks `todaytask`
 - Add a Recurring task `addrepeattask /task TASK_NAME /on DAYS /from START_TIME /to END_TIME /type F_OR_C`
+- Find urgent tasks in next few hours `urgent /in HOURS`
 - Add Task For Certain Users `addfor /user USER1, USER2, ... /on DAYS /task DESCRIPTION /from START_TIME /to END_TIME /type F_OR_C`
 - Help `help`
 - Exit Program `bye`
