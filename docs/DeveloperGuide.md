@@ -72,7 +72,7 @@ Step 4: It then loops through the tasks on that day, starting from the back (the
 
 Step 5: It displays the last task it looped though, or a special message if there is no task that day. 
 
-![NextCommand UML](NextCommand.png)
+![NextCommand UML](diagram%2FNextCommand.png)
 
 # Appendix: Project Requirements
 ## Product scope
